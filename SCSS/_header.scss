@@ -1,0 +1,27 @@
+header{
+    .logo{
+      width: 50%;
+      margin-left: 50px;
+    }
+    .header_background{
+      background-color: $color-primario;
+    }
+    .header_list{
+      background-color:$color-rosado;
+      border-radius: 25px;
+      color: white;
+    }
+    .header_link:hover{
+      background-color: $color-celeste;
+      border-radius: 25px;
+    }
+    .color_boton{
+      background-color: $color-rosado;
+      &:hover{
+        background-color: $color-celeste;
+      }
+    }
+    .button_style{
+        background-color: $color-rosado;
+      }
+  }

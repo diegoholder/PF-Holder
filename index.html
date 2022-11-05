@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--Añadiendo bootstrap-->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./SCSS/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bienvenido al sitio principal de ZonaGenshin, esta es la página principal de la comunidad del juego Genshin Impact. Conoce más entrando a las diferentes secciones que tenemos para ti.">
+  <meta name="keywords" content="Genshin, Impact, videojuego, comunidad, guías, personajes">
+  <title>ZonaGenshin: el lugar perfecto para la comunidad de Genshin Impact</title>
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body class="body d-flex flex-column">
+  <header class="body__header mb-3">
+    
+    <nav class="navbar navbar-expand-lg header_background navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="./index.html"><img src="./images/zonagenshinlogo.png"></a>
+        <button class="navbar-toggler button_style" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 header_list">
+            <li class="nav-item">
+              <a class="nav-link active text-reset header_link" aria-current="page" href="./index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset header_link" href="./pages/guides.html">Guías</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset header_link" href="./pages/events.html">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset header_link" href="./pages/news.html">Noticias</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-reset header_link" href="./pages/contact.html">Contacto</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="body__main">
+    <div class="body__main__container">
+      <h1>Bienvenidos a ZonaGenshin</h1>
+      <p>Somos una comunidad dedicada a recopilar las últimas noticias y las guías más detalladas del juego Genshin Impact.
+      </p>
+    </div>
+    <div class="body__main__container container row d-flex justify-content-center align-items-center">
+      <img class="body__main__image col-sm-2" src="./images/paimon question.png" alt="Caricatura en estilo chibi del personaje Paimon con un signo de pregunta">
+      <div class="body__main__searchCard col-sm-2">
+        <h2>Busca a tu personaje favorito</h2>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 " type="search" placeholder="Nombre" aria-label="Search">
+          <button class="btn btn-linktext-reset submit_button" type="submit"><a class="color_boton" href="./pages/404.html"> Buscar </a></button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer class="body__footer">
+    <div class="container d-flex justify-content-center py-5">
+    <a href="https://www.facebook.com/" target="_blank"><img class="body__footer__socials" src="./images/footer_facebook.png" alt="Logo de Facebook" loading="lazy"></a>
+    <a href="https://twitter.com/" target="_blank"><img class="body__footer__socials" src="./images/footer_twitter.png" alt="Logo de Twitter" loading="lazy"></a>
+    <a href="https://discord.com/" target="_blank"><img class="body__footer__socials" src="./images/footer_discord.png" alt="Logo de Discord" loading="lazy"></a>
+    </div>
+    <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: Diego Holder
+    </div>
+  </footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

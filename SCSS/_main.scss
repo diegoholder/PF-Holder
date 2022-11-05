@@ -1,0 +1,59 @@
+.body__main{
+    display: inline-block;
+    background-color: $color-secundario;
+    width: 70%;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 0.9rem;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+    .body__main__container{
+      display: inline-block;
+      width: 95%;
+      height: 100%;
+      vertical-align: middle;
+      margin: 3%;
+    }
+    .body__main__image{
+      width: auto;
+      height: auto;
+      max-width: 250px;
+      max-height: 250px;
+    }
+    .body__main__article{
+      text-align: left;
+    }
+    .body__main__searchCard{
+      top: -60px;
+      height: 226px;
+    }
+    .character_card{
+      width: 100px;
+      height: 100px;
+      background-color: $color-celeste;
+      border-radius: 50%;
+      margin-left: 0px;
+      margin-bottom: 80px;
+      text-align: center;
+      &:hover{
+        background-color:$color-rosado;
+      }
+    }
+    .character_picture{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .main_contact_form{
+      width: 80%;
+    }
+    .submit_button{
+      background-color: $color-rosado;
+      border-radius: 25px;
+    }
+    .color_boton{
+      color: white;
+    }
+  }

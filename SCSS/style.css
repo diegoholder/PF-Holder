@@ -1,0 +1,125 @@
+.body {
+  background-color: #202225;
+  color: white;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.body__footer {
+  background-color: #68c5fe;
+  width: 100%;
+  height: 196px;
+  bottom: 0;
+  margin: 0px 0px 0px 0px;
+}
+.body__footer .body__footer__text {
+  width: 55%;
+  text-align: justify;
+  margin: 25px 20px 0px 25px;
+  overflow: hidden;
+  position: absolute;
+  left: 5%;
+  font-size: 1rem;
+}
+.body__footer .body__footer__socials {
+  width: auto;
+  height: 45px;
+  margin: 0px 20px 0px 20px;
+  position: relative;
+  transition: width 2s, height 2s, transform 1s;
+}
+.body__footer .body__footer__socials:hover {
+  transform: scale(1.3);
+}
+
+header .logo {
+  width: 50%;
+  margin-left: 50px;
+}
+header .header_background {
+  background-color: #202225;
+}
+header .header_list {
+  background-color: #eb8cd8;
+  border-radius: 25px;
+  color: white;
+}
+header .header_link:hover {
+  background-color: #68c5fe;
+  border-radius: 25px;
+}
+header .color_boton {
+  background-color: #eb8cd8;
+}
+header .color_boton:hover {
+  background-color: #68c5fe;
+}
+header .button_style {
+  background-color: #eb8cd8;
+}
+
+.body__main {
+  display: inline-block;
+  background-color: #36393f;
+  width: 70%;
+  border-radius: 25px;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 0.9rem;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.body__main .body__main__container {
+  display: inline-block;
+  width: 95%;
+  height: 100%;
+  vertical-align: middle;
+  margin: 3%;
+}
+.body__main .body__main__image {
+  width: auto;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
+}
+.body__main .body__main__article {
+  text-align: left;
+}
+.body__main .body__main__searchCard {
+  top: -60px;
+  height: 226px;
+}
+.body__main .character_card {
+  width: 100px;
+  height: 100px;
+  background-color: #68c5fe;
+  border-radius: 50%;
+  margin-left: 0px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+.body__main .character_card:hover {
+  background-color: #eb8cd8;
+}
+.body__main .character_picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.body__main .main_contact_form {
+  width: 80%;
+}
+.body__main .submit_button {
+  background-color: #eb8cd8;
+  border-radius: 25px;
+}
+.body__main .color_boton {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
